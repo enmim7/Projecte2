@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    list-style: none;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#llibreria {
+    display: flex;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+
+.llibre {
+    border: 1px solid black;
+    width: 300px;
+    box-shadow: 2px 2px 2px black;
+    padding: 0 10px;
+}
+
+.llibre img {
+    width: 100%;
+}
+
+h3 span {
+    color: green;
+}
+
+h4 span {
+    color: red;
+    font-size: 25px;
+}
+
+input {
+    width: 100%;
+}
+
+/*prova*/
+
+
+/* HEADER + NAV */
+
+.dreta {
+    float: right;
+}
+
+.navbar {
+    z-index: 1;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    position: fixed;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    padding: 25px 30px;
+    font-size: 20px;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+.navbar .icon {
+    display: none;
+}
+
+.navbar a:hover {
+    color: red;
+    background-size: 100% 2px;
+}
+
+.narbar a:nth-last-child(1) {
+    margin-left: auto;
+}
