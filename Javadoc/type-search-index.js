@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"projecte2","l":"Activitat"},{"l":"All Classes","url":"allclasses-index.html"},{"p":"projecte2","l":"Client"},{"p":"projecte2","l":"ConnexioBD"},{"p":"projecte2","l":"Correu"},{"p":"projecte2","l":"DNI"},{"p":"projecte2","l":"Gimnas"},{"p":"projecte2","l":"GimnasAplicacio"},{"p":"projecte2","l":"IBAN"},{"p":"projecte2","l":"Telefon"}]
