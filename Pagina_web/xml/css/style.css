@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    list-style: none;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#competicions {
+    display: flex;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+
+.cursa {
+    margin: auto;
+    width: 1200px;
+    height: auto;
+}
+
+.cursa img {
+    width: 1200px;
+    height: 600px;
+}
+
+h3 span {
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-top: 10px;
+    font-family: cursive;
+    padding-bottom: 20px;
+}
+
+h4 span {
+    color: red;
+    font-size: 25px;
+}
+
+input {
+    width: 100%;
+    height: 50px;
+}
+
+
+/*prova*/
+
+
+/* HEADER + NAV */
+
+.dreta {
+    float: right;
+}
+
+.navbar {
+    z-index: 1;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    position: fixed;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    padding: 25px 30px;
+    font-size: 20px;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+.navbar .icon {
+    display: none;
+}
+
+.navbar a:hover {
+    color: red;
+    background-size: 100% 2px;
+}
+
+.narbar a:nth-last-child(1) {
+    margin-left: auto;
+}

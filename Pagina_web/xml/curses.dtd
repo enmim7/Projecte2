@@ -1,0 +1,6 @@
+<!ELEMENT curses (cursa+) >
+<!ELEMENT cursa (title, portada) >
+<!ELEMENT title (#PCDATA) >
+<!ELEMENT portada (#PCDATA)>
+
+<!ATTLIST cursa category CDATA #REQUIRED >

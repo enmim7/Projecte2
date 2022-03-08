@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE curses SYSTEM "curses.dtd">
+<?xml-stylesheet type="text/xsl" href="curses.xsl"?>
+<curses>
+  <cursa category="children">
+    <title>Bicicleta</title>
+    
+    <portada>ciclisme.jpg</portada>
+  </cursa>
+  <cursa category="children">
+    <title>Natació</title>
+   
+    <portada>natacio.jpg</portada>
+  </cursa>
+  <cursa category="children">
+    <title>Running</title>
+  
+    <portada>correr.jpg</portada>
+  </cursa>
+  <cursa category="web">
+    <title>Triatló</title>
+   
+    <portada>triatlo.png</portada>
+  </cursa>
+</curses>
